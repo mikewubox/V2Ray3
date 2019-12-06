@@ -8,7 +8,7 @@
       "settings": {
         "clients": [
           {
-	  "id":"a4f48006-c4e5-4bc1-bd9a-4b2392a702cb",
+	  "id":"a4f48006-c4e5-4bc1-bd9a-4b2392a702aa",
 	  "alterId":64
           }
         ]
@@ -16,7 +16,7 @@
       "streamSettings": {
         "network": "ws", 
         "wsSettings": {
-	  "path":"/29616bbc/"
+	  "path":"/29616bsdsdsadasdasdas/"
         }
       }
     }
