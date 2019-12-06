@@ -1,9 +1,9 @@
-https://xx009.ml {
+https://xx999.ml {
   root /var/www/html
  timeouts none
  tls mXXXXXXXX@gmail.com
  gzip
- proxy /29616bbc 127.0.0.1:15174 {
+ proxy /29616baa 127.0.0.1:15174 {
   websocket
   header_upstream -Origin
   }
