@@ -1,0 +1,55 @@
+{
+  "inbounds": [
+    {
+    "port":443,
+      "protocol": "vmess", 
+      "settings": {
+        "clients": [
+          {
+	  "id":"a4f48006-c4e5-4bc1-bd9a-4b2392a702cb",
+	  "alterId":64
+          }
+        ]
+      }, 
+      "streamSettings": {
+        "network": "h2",		
+        "httpSettings": {		
+	  "path":"/119ad16d-a0e5-48ee-8b24-8fca84b91333/"
+	           },
+		"security": "tls",
+		"tlsSettings": {
+          "certificates": [
+            {
+              "certificateFile": "/etc/v2ray/v2ray.crt", // 证书文件，详见 tls 小节
+              "keyFile": "/etc/v2ray/v2ray.key" // 密钥文件
+            }
+          ]
+		 } 
+      }
+    }
+  ], 
+  "outbounds": [
+    {
+      "protocol": "freedom", 
+      "settings": { }, 
+      "tag": "direct"
+    }, 
+    {
+      "protocol": "blackhole", 
+      "settings": { }, 
+      "tag": "blocked"
+    }
+  ], 
+  "routing": {
+    "domainStrategy": "AsIs", 
+    "rules": [
+      {
+        "type": "field", 
+        "inboundTag": [
+          "vmess-in"
+        ], 
+        "outboundTag": "direct"
+      }
+    ]
+  }
+}
