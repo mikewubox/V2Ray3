@@ -6,7 +6,7 @@
       "settings": {
         "clients": [
           {
-	  "id":"a4f48006-c4e5-4bc1-bd9a-4b2392a702cb",
+	  "id":"a4f48006-c4e5-4bc1-bd9a-4b2392a70666",
 	  "alterId":64
           }
         ]
@@ -14,7 +14,7 @@
       "streamSettings": {
         "network": "ws",		
         "wsSettings": {		
-	  "path":"/119ad16d-a0e5-48ee-8b24-8fca84b91333/",
+	  "path":"/119ad16d-a0e5-48ee-8b24-8fca84b91444/",
 	   "headers":{}
         },
 		"security": "tls",
