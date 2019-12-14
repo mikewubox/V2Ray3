@@ -1,4 +1,4 @@
-# V2Ray3搜集與網絡各路大神，存粹搬運。
+# V2Ray3搜集與網絡各路大神。
 # Nginx三件套配置文件，基於wulabing大神一鍵的代碼，部分參數請自行修改。
 # 偽站點網頁計算器https://github.com/dunizb/sCalc
 
