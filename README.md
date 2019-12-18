@@ -8,3 +8,4 @@
 # SSL Security Test https://www.immuniweb.com/ssl/
 # SSL Configuration Generator https://ssl-config.mozilla.org/
 # 強隨機密碼生成（至少16位）https://passwordsgenerator.net/
+# 瀏覽器安全檢測 https://www.cloudflare.com/ssl/encrypted-sni/
