@@ -7,4 +7,4 @@
 # UUID 生成 https://www.uuidgenerator.net/
 # SSL Security Test https://www.immuniweb.com/ssl/
 # SSL Configuration Generator https://ssl-config.mozilla.org/
-# 強密碼隨機生成（至少16位）https://passwordsgenerator.net/
+# 強隨機密碼生成（至少16位）https://passwordsgenerator.net/
