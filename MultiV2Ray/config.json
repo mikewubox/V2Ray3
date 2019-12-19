@@ -1,0 +1,111 @@
+{
+    "log": {
+        "access": "/var/log/v2ray/access.log",
+        "error": "/var/log/v2ray/error.log",
+        "loglevel": "warning"
+    },
+    "inbound": {
+        "port": 12345,
+        "protocol": "vmess",
+        "settings": {
+            "clients": [
+                {
+                    "id": "709d102c-f576-7731-d96b-01c3f1bed5d5",
+                    "level": 1,
+                    "alterId": 100
+                },
+                {
+                    "id": "a9158b24-daff-d3c3-ff77-d774afa5aa23",
+                    "level": 1,
+                    "alterId": 100
+                }
+            ]
+        },
+        "streamSettings": {
+            "network": "kcp"
+        }
+    },
+    "outbound": {
+        "protocol": "freedom",
+        "settings": {}
+    },
+    "inboundDetour": [
+        {
+            "port": 54321,
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "709d102c-f576-7731-d96b-01c3f1bed5d5",
+                        "level": 1,
+                        "alterId": 100
+                    },
+                    {
+                        "id": "a9158b24-daff-d3c3-ff77-d774afa5aa23",
+                        "level": 1,
+                        "alterId": 100
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp"
+            }
+        },
+        {
+            "port": 64541,
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "709d102c-f576-7731-d96b-01c3f1bed5d5",
+                        "level": 1,
+                        "alterId": 100
+                    },
+                    {
+                        "id": "a9158b24-daff-d3c3-ff77-d774afa5aa23",
+                        "level": 1,
+                        "alterId": 100
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "ws"
+            }
+        }
+    ],
+    "outboundDetour": [
+        {
+            "protocol": "blackhole",
+            "settings": {},
+            "tag": "blocked"
+        }
+    ],
+    "routing": {
+        "strategy": "rules",
+        "settings": {
+            "rules": [
+                {
+                    "type": "field",
+                    "ip": [
+                        "0.0.0.0/8",
+                        "10.0.0.0/8",
+                        "100.64.0.0/10",
+                        "127.0.0.0/8",
+                        "169.254.0.0/16",
+                        "172.16.0.0/12",
+                        "192.0.0.0/24",
+                        "192.0.2.0/24",
+                        "192.168.0.0/16",
+                        "198.18.0.0/15",
+                        "198.51.100.0/24",
+                        "203.0.113.0/24",
+                        "::1/128",
+                        "fc00::/7",
+                        "fe80::/10"
+                    ],
+                    "outboundTag": "blocked"
+                }
+            ]
+        }
+    }
+}
