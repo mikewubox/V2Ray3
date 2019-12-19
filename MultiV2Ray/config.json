@@ -5,17 +5,17 @@
         "loglevel": "warning"
     },
     "inbound": {
-        "port": 12345,
+        "port": 22345,
         "protocol": "vmess",
         "settings": {
             "clients": [
                 {
-                    "id": "709d102c-f576-7731-d96b-01c3f1bed5d5",
+                    "id": "709d102c-f576-7731-d96b-01c3f1bed5d4",
                     "level": 1,
                     "alterId": 100
                 },
                 {
-                    "id": "a9158b24-daff-d3c3-ff77-d774afa5aa23",
+                    "id": "a9158b24-daff-d3c3-ff77-d774afa5aa24",
                     "level": 1,
                     "alterId": 100
                 }
@@ -31,17 +31,17 @@
     },
     "inboundDetour": [
         {
-            "port": 54321,
+            "port": 24321,
             "protocol": "vmess",
             "settings": {
                 "clients": [
                     {
-                        "id": "709d102c-f576-7731-d96b-01c3f1bed5d5",
+                        "id": "709d102c-f576-7731-d96b-01c3f1bed5d4",
                         "level": 1,
                         "alterId": 100
                     },
                     {
-                        "id": "a9158b24-daff-d3c3-ff77-d774afa5aa23",
+                        "id": "a9158b24-daff-d3c3-ff77-d774afa5aa24",
                         "level": 1,
                         "alterId": 100
                     }
@@ -52,17 +52,17 @@
             }
         },
         {
-            "port": 64541,
+            "port": 54541,
             "protocol": "vmess",
             "settings": {
                 "clients": [
                     {
-                        "id": "709d102c-f576-7731-d96b-01c3f1bed5d5",
+                        "id": "709d102c-f576-7731-d96b-01c3f1bed5d4",
                         "level": 1,
                         "alterId": 100
                     },
                     {
-                        "id": "a9158b24-daff-d3c3-ff77-d774afa5aa23",
+                        "id": "a9158b24-daff-d3c3-ff77-d774afa5aa24",
                         "level": 1,
                         "alterId": 100
                     }
