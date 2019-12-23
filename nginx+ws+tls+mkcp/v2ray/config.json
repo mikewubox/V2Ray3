@@ -21,7 +21,7 @@
       "streamSettings": {
         "network": "ws", 
         "wsSettings": {
-	  "path":"/1d334713-b88f-4c4e-a4f5-0d1eba52fed5/"
+	  "path":"/1d334713-b88f-4c4e-a4f5-0d1eba52fzzz/"
         }
       }
     }
@@ -32,12 +32,12 @@
     },
     "inboundDetour": [
         {
-            "port": 54321,
+            "port": 44324,
             "protocol": "vmess",
             "settings": {
                 "clients": [
                     {
-                        "id": "da8374eb-d26c-4a10-9f13-3690b48e6731",
+                        "id": "da8374eb-d26c-4a10-9f13-3690b48e6zzz",
                         "level": 1,
                         "alterId": 100
                     }
