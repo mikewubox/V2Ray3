@@ -1,4 +1,4 @@
-# V2Ray3搜集與網絡各路大神。
+# V2Ray,trojan搜集與網絡各路大神。
 # Nginx三件套配置文件，基於wulabing大神一鍵的代碼，部分參數請自行修改。
 # 偽站點建議自己生成
 # 多用戶多端口配置生成 https://intmainreturn0.com/v2ray-config-gen/
