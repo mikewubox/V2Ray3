@@ -2,10 +2,10 @@
     "run_type": "client",
     "local_addr": "127.0.0.1",
     "local_port": 1080,
-    "remote_addr": "gcp007.ml",
+    "remote_addr": "zzz009.ml",
     "remote_port": 443,
     "password": [
-        "dxt2R+8D*&B7ZmSy"
+        "dxt2R+8D*&B7Zm99"
     ],
     "log_level": 1,
     "ssl": {
